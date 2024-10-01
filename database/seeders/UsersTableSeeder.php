@@ -22,7 +22,7 @@ class UsersTableSeeder extends Seeder
 
             ],
             [
-                'name' => 'Coordinator', //managing ging the roles to the users
+                'name' => 'Coordinator', //managing the roles to the users
                 'email' => 'coodinator@evsu.com',
                 'password' => bcrypt('admin123'),
                 'remember_token' => null,
